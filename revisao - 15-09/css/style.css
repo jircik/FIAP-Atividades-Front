@@ -1,0 +1,128 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main: #3B2458;
+    --accent: #A55AD7;
+    --preto: #121212;
+    --white: #fff;
+    --cinza: #dddddd;
+    --destaque: #e07a5f;
+    --linha: #2a2a2a;
+    --max-largura: 1140px;
+    --espaco-secao: 70px;
+    --gap: 24px;
+    --altura-header: 84px;
+    --transicao: 0.3s ease;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--main);
+    color: var(--white);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-largura);
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: var(--main);
+    border-radius: 50%;
+    border: 5px solid var(--accent);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    color: var(--white);
+}
+
+.nav-links {
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 32px;
+}
+
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color var(--transicao);
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    max-width: 750px;
+    text-align: center;
+    margin-top: var(--espaco-secao);
+    margin-bottom: var(--gap);
+}
+
+.hero-title h1 {
+    font-size: 64px;
+    line-height: 1.05;
+    color: var(--white);
+}
+
+.hero-text {
+    max-width: 750px;
+    text-align: center;
+    margin-top: var(--gap);
+    margin-bottom: var(--gap);
+}
+
+.hero-text h4 {
+    font-size: 16px;
+    line-height: 1.05;
+    color: var(--white);
+    font-weight: lighter;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--accent);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--espaco-secao);
+}
+
+.btn a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color var(--transicao);
+}
+
+
