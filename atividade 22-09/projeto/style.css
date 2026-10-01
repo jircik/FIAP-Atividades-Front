@@ -1,0 +1,13 @@
+/* Bootstrap não tem marrom pronto: cor da marca */
+.text-brand {
+    color: #a0693a;
+}
+
+.btn-brand {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #8b5a2b;
+    --bs-btn-border-color: #8b5a2b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #714822;
+    --bs-btn-hover-border-color: #714822;
+}
